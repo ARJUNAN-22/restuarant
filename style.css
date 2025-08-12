@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  gap: 3em;
+}
+section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.5em;
+  width: 320px;
+}
+#menu .menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5em;
+}
+#menu .menu-item:last-child {
+  border-bottom: none;
+}
+.menu-item button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.menu-item button:hover {
+  background: #388e3c;
+}
+#cart {
+  list-style: none;
+  padding: 0;
+}
+#cart li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+#cart-total {
+  font-weight: bold;
+  margin-top: 1em;
+}
+#place-order {
+  margin-top: 1em;
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 0.7em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+#place-order:hover {
+  background: #1769aa;
+}
+#order-message {
+  margin-top: 1em;
+  color: green;
+  font-weight: bold;
+}
